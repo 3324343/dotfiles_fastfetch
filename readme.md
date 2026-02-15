@@ -1,5 +1,7 @@
+## 🔍 Preview
+
 <p>
-<img src="https://github.com/AndroidGeeksYT/dotfile_fastfetch/blob/main/assets/sample.png">
+<img src="preview.png">
 </p>
 
 ---
@@ -13,7 +15,7 @@
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Installation 
 
 ```bash
 # Clone this repo

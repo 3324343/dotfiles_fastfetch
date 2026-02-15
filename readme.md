@@ -15,11 +15,16 @@
 
 ---
 
+## ⚙️ Requirements
+
+- `fastfetch`
+- A Nerd Font (e.g., [Hack Nerd Font](https://www.nerdfonts.com/))
+
+---
+
 ## 🚀 Installation 
 
 ```bash
 # Clone this repo
 git clone https://github.com/3324343/dotfiles_fastfetch ~/.config/fastfetch
 ```
-
----

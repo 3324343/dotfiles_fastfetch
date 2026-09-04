@@ -33,4 +33,5 @@ busybox mount -t tmpfs -o size=256M tmpfs "$mnt/dev/shm"
 cp /etc/resolv.conf "$mnt/etc/resolv.conf" 2>/dev/null
 
 # Enter Arch
-busybox chroot "$mnt" /bin/su - root
+#busybox chroot "$mnt" /bin/su - root
+busybox chroot $mnt /bin/su - owo -c "export DISPLAY=:0 PULSE_SERVER=tcp:127.0.0.1:4713 && dbus-launch --exit-with-session startxfce4"

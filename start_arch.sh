@@ -14,4 +14,5 @@ busybox mount -t tmpfs /cache $mnt/var/cache
 busybox mount -t tmpfs -o size=256M tmpfs $mnt/dev/shm
 
 # chroot into Arch
-busybox chroot $mnt /bin/su - root
+#busybox chroot $mnt /bin/su - root
+busybox chroot $mnt /bin/su - owo -c "export DISPLAY=:0 PULSE_SERVER=tcp:127.0.0.1:4713 && dbus-launch --exit-with-session startxfce4"
